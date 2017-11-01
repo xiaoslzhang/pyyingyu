@@ -11,5 +11,5 @@ def main():
         include_package_data=True,
     )
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
