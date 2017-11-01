@@ -10,3 +10,6 @@ def main():
         packages = find_packages(),
         include_package_data=True,
     )
+
+if __name__ = '__main__':
+    main()
