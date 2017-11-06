@@ -1,7 +1,7 @@
 # pyyingyu
-##Key Features
+## Key Features
     provides translate of python
-##Installation
+## Installation
 **use pip:**
 
         $ pip install pyyingyu
@@ -10,7 +10,7 @@
 
         $ python setup.py install
 
-##Getting Started
+## Getting Started
 
     an usage example of pyyingyu:
     
