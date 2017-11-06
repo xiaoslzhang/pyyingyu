@@ -49,12 +49,3 @@ class BaiduTranslate:
             raise RuntimeError(res['error_msg'])
         return res['trans_result'][0]['dst']
 
-
-#if __name__ == '__main__':
-#    baidu = BaiduTranslate('20171009000086968', 'vZ36FjnZ91FoLJwe5NrF')
-#    #baidu = BaiduTranslate()
-#    #text = '中共北京市委北京市人民政府信访办公室网站'
-#    text = 'I like the book so much!'
-#    res = baidu.translate(text, baidu.lang_en, baidu.lang_zh)
-#    print(text)
-#    print(res)
