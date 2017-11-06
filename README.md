@@ -1,12 +1,20 @@
 # pyyingyu
 Key Features
+
     provides translate of python
+
 Installation
+
     use pip:
+
         $ pip install pyyingyu
+
     use source code:
+
         $ python setup.py install
+
 Getting Started
+
     an usage example of pyyingyu:
     
         import pyyingyu
