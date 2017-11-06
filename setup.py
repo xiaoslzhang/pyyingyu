@@ -5,7 +5,7 @@ import sys
 from setuptools import setup,find_packages
 from setuptools.command.test import test as TestCommand
 
-with open('README.md') ad fd:
+with open('README.md') as fd:
     long_description = fd.read()
 
 
