@@ -10,7 +10,7 @@ with open('README.md') as fd:
 
 
 def read_version():
-    p = os.path.join(os.path.abspath(os.path.dirname(__file__)),'pyyingyu','version.py')
+    p = os.path.join(os.path.abspath(os.path.dirname(__file__)),'yingyu','version.py')
     with open(p,'rb') as f:
         return f.read().decode('utf-8').split('=')[-1].strip().strip('"')
 
@@ -32,9 +32,9 @@ def main():
     ]
     tests_requires = install_requires + ['pytest','pytest-aiohttp']
     setup(
-        name='pyyingyu',
+        name='yingyu',
         version=read_version(),
-        url='http://github.com/xiaoslzhang/pyyingyu',
+        url='http://github.com/xiaoslzhang/yingyu',
         description='translate',
         long_description=long_description,
         author='xiaoslzhang',
@@ -43,7 +43,7 @@ def main():
         packages=find_packages(),
         include_package_data=True,
         entry_points={
-            'console_scripts':['pyyingyu = pyyingyu.cli:main']    
+            'console_scripts':['yingyu = yingyu.cli:main']    
         },
         install_requires=install_requires,
         tests_requires=tests_requires,
